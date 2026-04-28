@@ -17,7 +17,7 @@ public:
 
   virtual string GetInfo() {
     return "Brand: " + brand + ", Model: " + model +
-           ", Year: " + to_string(year); // series of catenation + casting.
+           ", Year: " + to_string(year); 
   }
 };
 class Car : public vehicle {
@@ -72,3 +72,5 @@ int main() {
 
   return 0;
 }
+
+// John Cho Che
